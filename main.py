@@ -33,3 +33,16 @@ Bob.change_name("Peter")
 Bob.change_age(34)
 Bob.add_track("UI/UX")
 Bob.get_score()
+
+# For check
+Ichigo = Student(name='Kurosaki', age=19, tracks=['shinigami', 'hollow'], score=80.40)
+
+Ichigo.change_name('Zangetsu')
+Ichigo.change_age(24)
+Ichigo.add_track('Quincy')
+Ichigo.get_score()
+
+# display checks
+print(Ichigo.name)
+print(Ichigo.age)
+print(Ichigo.tracks)
